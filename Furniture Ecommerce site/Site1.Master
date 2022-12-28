@@ -1,0 +1,253 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Furniture_Ecommerce_site.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <style>
+        body {
+}
+
+.Center{
+    text-align: center;
+}
+
+.center-page{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: -40px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.footer-pos{
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 600px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.probrand{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 15px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.proName{
+    font-size: 13px;
+    line-height: 17px;
+    font-family: sans-serif;
+}
+
+.proprice{
+    font-size: 14px;
+    line-height: 17px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.proOgprice{
+    font-size: 13px;
+    line-height: 17px;
+    font-family: sans-serif;
+    font-weight: 400;
+    text-decoration: line-through;
+    color: gray;
+}
+
+.proPriceDiscount{
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: deeppink;
+}
+#set{
+    margin-left:10px;
+}
+.row{
+    background-color: white;
+}
+.proNameView{
+    font-size:20px;
+    line-height:25px;
+    font-family:sans-serif;
+    color:#696e80;
+
+}
+.proOgpriceView{
+    font-size: 13px;
+    
+    font-family: sans-serif;
+    font-weight: 400;
+    text-decoration: line-through;
+    color: gray;
+}
+.proPriceDiscountView{
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: deeppink;
+}
+.propriceView{
+    font-size: 16px;
+    line-height: 17px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-top:10px;
+}
+.divDel1{
+    border-bottom:1px dashed #ff6a00;
+   margin-bottom:20px;
+}
+.input[type=radio]{
+    margin-right:10px;
+    margin-left:10px;
+}
+.mainButton{
+    border-radius:3px;
+    outline:0;
+    margin-top:10px;
+    min-height:22px;
+    font-size:13px;
+    font-weight:500;
+    border:1px solid #ff5722;
+    background-color:#ff5722;
+    color:#fff;
+    min-width:108px;
+}
+
+.RemoveButton {
+    border-radius: 3px;
+    outline: 0;
+    margin-top: 10px;
+    font-size: 13px;
+    min-height: 22px;
+    min-width: 90px;
+    font-weight: 500;
+    background-color: #FF5722;
+    border: 1px solid #FF5722;
+    color:#ffff;
+}
+.priceGray{
+    font-size:15px;
+    font-family:sans-serif;
+    font-weight:400;
+    color:dimgray;
+}
+.priceGreen {
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #20bd99;
+}
+.proNameViewCart{
+    font-size:15px;
+    line-height:25px;
+    font-weight:600;
+    font-family:sans-serif;
+    color:#696e80;
+}
+.buyNowbtn{
+    border-radius:3px;
+    outline:0;
+    margin-top:10px;
+    margin-bottom:20px;
+    font-size:13px;
+    min-height:22px;
+    padding:10px 15px;
+    font-weight:500;
+    background-color:#14cda8;
+    color:#fff;
+    border:1px solid #14cda8;
+    width:100%;
+}
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <meta / charset="utf-8">
+    <meta name="viewport" content="width-device-width,initial-scale=1"/>
+    <meta http-equiv="X-UA-Compatible" content="chrome"/>
+    <link rel="stylesheet" href="css/custom.css"/>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function myfunction() {
+            $("#btnCart").click(function myfunction() {
+                window.location.href = "/Cart.aspx";
+            });
+        });
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+            <div>
+            <div class="navbar navbar-default navbar-fixed-top"role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button class="navbar-toggle"type="button"data-toggle="collapse"data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle Navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+
+
+                        </button>
+                        <a class="navbar-brand" href="WebForm1.aspx"><span><img  src="images/logo.jpg" alt="Logo" height="30px"/></span>WoodHack</a>
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <a href="Home.aspx">Home</a>
+                            </li>
+                            <li>
+                                <a href="#">About</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact</a>
+                            </li>
+                            <li>
+                                <a href="#">Blog</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products<b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="Products.aspx">All products</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="Signup.aspx">Sign up</a>
+                            </li>
+                            <li >
+                             <asp:Button ID="btnLogin" CssClass ="btn btn-default navbar-btn " runat="server" Text="SignIn" OnClick="btnLogin_Click" />
+                            <asp:Button ID="btnlogout" CssClass ="btn btn-default navbar-btn " runat="server" Text="Sign Out" OnClick="btnlogout_Click" />
+                        </li>
+                            <li><button type="button" id="btnCart" class="btn btn-info navbar-btn "><a href="Cart.aspx">Cart<span class="badge" id="pCount" runat="server"></span></a></button></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+                <footer>
+            <div class="container">
+                <p class="pull-right"><a href="#">Back to Top</a></p>
+                <p>&copy;2022Woodhack.in &middot;<a href="WebForm1.aspx">Home</a>&middot;<a href="#">About</a>&middot;<a href="#">Contact</a>&middot;<a href="#">Products</a></p>
+            </div>
+        </footer>
+        </div>
+    </form>
+</body>
+</html>
