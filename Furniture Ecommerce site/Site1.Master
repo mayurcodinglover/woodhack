@@ -7,10 +7,21 @@
     <title></title>
     <style>
         body {
+    background-color:white;
 }
+    .imguserorder
+    {
+        width:100px;
+        height:100px;
+    }
 
 .Center{
     text-align: center;
+}
+.house_shopping
+{
+    width:500px;
+    height:600px;
 }
 
 .center-page{
@@ -71,9 +82,7 @@
     font-weight: 400;
     color: deeppink;
 }
-#set{
-    margin-left:10px;
-}
+
 .row{
     background-color: white;
 }
@@ -121,11 +130,10 @@
     font-size:13px;
     font-weight:500;
     border:1px solid #ff5722;
-    background-color:#ff5722;
-    color:#fff;
+    background-color:gray;
+    color:white;
     min-width:108px;
 }
-
 .RemoveButton {
     border-radius: 3px;
     outline: 0;
@@ -157,7 +165,7 @@
     font-family:sans-serif;
     color:#696e80;
 }
-.buyNowbtn{
+buyNowbtn{
     border-radius:3px;
     outline:0;
     margin-top:10px;
@@ -170,7 +178,34 @@
     color:#fff;
     border:1px solid #14cda8;
     width:100%;
+    background-color:red;
 }
+
+.dropdown-menu li {
+position: relative;
+}
+.dropdown-menu .dropdown-submenu {
+display: none;
+position: absolute;
+left: 100%;
+}
+.dropdown-menu .dropdown-submenu-left {
+right: 100%;
+left: auto;
+}
+.dropdown-menu > li:hover > .dropdown-submenu {
+display: block;
+}
+
+.dropdown-hover:hover>.dropdown-menu {
+display: inline-block;
+}
+
+.dropdown-hover>.dropdown-toggle:active {
+/*Without this, clicking will make it sticky*/
+pointer-events: none;
+}
+
     </style>
     <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
     <meta / charset="utf-8">
@@ -178,6 +213,9 @@
     <meta http-equiv="X-UA-Compatible" content="chrome"/>
     <link rel="stylesheet" href="css/custom.css"/>
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <link rel="shortcut icon" type="image/x-icon" href="logo/favicon.ico">
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script>
@@ -204,35 +242,89 @@
 
 
                         </button>
-                        <a class="navbar-brand" href="WebForm1.aspx"><span><img  src="images/logo.jpg" alt="Logo" height="30px"/></span>WoodHack</a>
+                        <a class="navbar-brand" href="Home.aspx"><span><img  src="images/logo.png" alt="Logo" height="30px"/></span>WoodHack</a>
                     </div>
+                           
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav navbar-right">
+
+                            <li style="padding:10px;width:max-content;">
+                                         <asp:TextBox ID="txtsearch" placeholder="Search" runat="server" Height="30" Width="100%"></asp:TextBox>
+                             </li>
+                            <li style="padding:10px;width:max-content;">
+                                         <asp:Button ID="Button1" runat="server" Text="Search" BackColor="#003366" Font-Bold="true" ForeColor="#ffffff" OnClick="btnsearch_Click" />
+                                     </li>
                             <li>
                                 <a href="Home.aspx">Home</a>
                             </li>
                             <li>
-                                <a href="#">About</a>
+                                <a href="About.aspx">About</a>
                             </li>
-                            <li>
-                                <a href="#">Contact</a>
-                            </li>
-                            <li>
-                                <a href="#">Blog</a>
-                            </li>
+                            
+                            
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products<b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="Products.aspx">All products</a></li>
+                                    <li><a href="Mattresses.aspx">Mattresses</a></li>
+                                      <li><a class="dropdown-item" href="Bed.aspx">Beds <b class="caret"></b></a>
+                                          <ul class="dropdown-menu dropdown-submenu">
+                                              <li><a class="dropdown-item" href="kingsize.aspx">King Size</a></li>
+                                              <li><a class="dropdown-item" href="queensize.aspx">Queen Size</a></li>
+                                              <li><a class="dropdown-item" href="single.aspx">Single Bed</a></li>
+                                          </ul>
+                                      </li>
+                                      <li><a href="Chair.aspx">Chairs</a></li>
+                                      <li><a href="OfficeChair.aspx">Office Chairs</a></li>
+                                      <li><a class="dropdown-item" href="Sofa.aspx">Sofa <b class="caret"></b></a>
+                                          <ul class="dropdown-menu dropdown-submenu">
+                                              <li><a class="dropdown-item" href="sofaset.aspx">Sofa Set</a></li>
+                                              <li><a class="dropdown-item" href="3seater.aspx">3 Seater</a></li>
+                                              <li><a class="dropdown-item" href="2seater.aspx">2 Seater</a></li>
+                                              <li><a class="dropdown-item" href="1seater.aspx">1 Seater</a></li>
+                                          </ul>
+                                      </li>
+                                      <li><a class="dropdown-item" href="Recliner.aspx">Recliners <b class="caret"></b></a>
+                                          <ul class="dropdown-menu dropdown-submenu">
+                                              <li><a class="dropdown-item" href="3seatrecliner.aspx">3 Seater</a></li>
+                                              <li><a class="dropdown-item" href="2seatrecliner.aspx">2 Seater</a></li>
+                                              <li><a class="dropdown-item" href="1seatrecliner.aspx">1 Seater</a></li>
+                                          </ul>
+                                      </li>
+                                      <li><a href="Table.aspx">Tables</a></li>
+                                      <li><a href="DressingTable.aspx">Dressing Tables</a></li>
+                                      <li><a href="StudyTable.aspx">Study Tables</a></li>
+                                      <li class="dropdown-item"><a href="Wardrobes.aspx">Wardrobes <b class="caret"></b></a>
+                                          <ul class="dropdown-menu dropdown-submenu">
+                                              <li><a class="dropdown-item" href="4doorwardrobe.aspx">4 Door</a></li>
+                                              <li><a class="dropdown-item" href="3doorwardrobe.aspx">3 Door</a></li>
+                                              <li><a class="dropdown-item" href="2doorwardrobe.aspx">2 Door</a></li>
+                                          </ul>
+                                      </li>
+                                      <li class="dropdown-item"><a href="DiningTable.aspx">Dining Table <b class="caret"></b></a>
+                                          <ul class="dropdown-menu dropdown-submenu">
+                                              <li><a class="dropdown-item" href="4seatdining.aspx">4 Seater</a></li>
+                                              <li><a class="dropdown-item" href="6seatdining.aspx">6 Seater</a></li>
+                                              <li><a class="dropdown-item" href="8seatdining.aspx">8 Seater</a></li>
+                                          </ul>
+                                      </li>
+                                      <li><a href="BookShelve.aspx">Book Shelves</a></li>
+                                      <li><a href="Ottoman.aspx">Ottoman</a></li>
+                                      <li><a href="TVUnit.aspx">TV Units</a></li>
+                                      <li><a href="ShoeRack.aspx">Shoe Racks</a></li>
+                                    
                                 </ul>
                             </li>
                             <li>
-                                <a href="Signup.aspx">Sign up</a>
+                                <a href="orderuser.aspx">Orders</a>
                             </li>
+                            
                             <li >
-                             <asp:Button ID="btnLogin" CssClass ="btn btn-default navbar-btn " runat="server" Text="SignIn" OnClick="btnLogin_Click" />
+                             <asp:Button ID="btnLogin" CssClass ="btn btn-default navbar-btn " runat="server" Text="SignIn" OnClick="btnLogin_Click1" />
+                                &nbsp&nbsp&nbsp;
                             <asp:Button ID="btnlogout" CssClass ="btn btn-default navbar-btn " runat="server" Text="Sign Out" OnClick="btnlogout_Click" />
                         </li>
+                            <li><asp:Button ID="btnprofile" CssClass ="btn btn-default navbar-btn " runat="server" Text="Profile" OnClick="btnprofile_Click" /></li>
                             <li><button type="button" id="btnCart" class="btn btn-info navbar-btn "><a href="Cart.aspx">Cart<span class="badge" id="pCount" runat="server"></span></a></button></li>
                         </ul>
 

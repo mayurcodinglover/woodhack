@@ -41,20 +41,49 @@ namespace Furniture_Ecommerce_site
 
         protected void btnAddSubCategory_Click(object sender, EventArgs e)
         {
-            using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["MyEshoppingDB"].ConnectionString))
+            this.RequiredFieldValidatortxtSubCategoryName.Visible = false;
+            if (!string.IsNullOrWhiteSpace(txtSubCategory.Text))
             {
-                con.Open();
-                SqlCommand cmd = new SqlCommand("Insert into SubCategory(SubCatName,MainCatID) Values('" + txtSubCategory.Text + "','"+ddlMainCatID.SelectedItem.Value+"')", con);
-                cmd.ExecuteNonQuery();
-                Response.Write("<script> alert('SubCategory Added Successfully'); </script>");
-                txtSubCategory.Text = String.Empty;
-                con.Close();
-                ddlMainCatID.ClearSelection();
-                ddlMainCatID.Items.FindByValue("0").Selected = true;
-                txtSubCategory.Focus();
+                using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["MyEshoppingDB"].ConnectionString))
+                {
+                    con.Open();
 
+                    int existingCategoryId = 0;
+                    int.TryParse(hdnSubCategoryID.Value, out existingCategoryId);
+
+                    SqlCommand cmd;
+                    string successMessage = string.Empty;
+                    if (existingCategoryId > 0)
+                    {
+                        cmd = new SqlCommand("UPDATE SubCategory SET SubCatName =  '" + txtSubCategory.Text + "' WHERE SubCatid=" + existingCategoryId, con);
+                        successMessage = "SubCategory updated successfully";
+                    }
+                    else
+                    {
+                        cmd = new SqlCommand("Insert into SubCategory(SubCatName, MainCatId) Values('" + txtSubCategory.Text + "', "+ ddlMainCatID.SelectedValue + ")", con);
+                        successMessage = "SubCategory added successfully";
+                    }
+
+                    cmd.ExecuteNonQuery();
+                    Response.Write("<script> alert('" + successMessage + "'); </script>");
+                    txtSubCategory.Text = String.Empty;
+                    hdnSubCategoryID.Value = "";
+
+                    con.Close();
+                    //lblmsg.Text = "Registration successfully done";
+                    //lblmsg.ForeColor = System.Drawing.Color.Green;
+                    txtSubCategory.Focus();
+
+                    btnAddSubCategory.Text = "Add Category";
+
+                    BindSubCatRptr();
+
+                }
             }
-            BindSubCatRptr();
+            else
+            {
+                this.RequiredFieldValidatortxtSubCategoryName.Visible = true;
+            }
         }
         private void BindMainCat()
         {
@@ -75,6 +104,60 @@ namespace Furniture_Ecommerce_site
                 }
                
 
+            }
+        }
+        protected void rptrSubCategory_ItemCommand(object source, RepeaterCommandEventArgs e)
+        {
+            int categoryId = 0;
+            if (e.CommandName == "Edit")
+            {
+                categoryId = Convert.ToInt32(Convert.ToString(e.CommandArgument));
+
+                if (categoryId > 0)
+                {
+                    using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["MyEshoppingDB"].ConnectionString))
+                    {
+                        con.Open();
+                        using (SqlCommand cmd = new SqlCommand("SELECT * FROM SubCategory WHERE SubCatid = " + categoryId, con))
+                        {
+                            using (SqlDataAdapter da = new SqlDataAdapter(cmd))
+                            {
+                                DataTable dt = new DataTable();
+                                da.Fill(dt);
+
+                                if (dt != null && dt.Rows.Count > 0)
+                                {
+                                    txtSubCategory.Text = Convert.ToString(dt.Rows[0]["SubCatName"]);
+                                    hdnSubCategoryID.Value = Convert.ToString(categoryId);
+                                    btnAddSubCategory.Text = "Edit Category";
+                                    txtSubCategory.Focus();
+                                }
+                            }
+                        }
+                        con.Close();
+                    }
+                }
+            }
+            else if (e.CommandName == "Delete")
+            {
+                categoryId = Convert.ToInt32(Convert.ToString(e.CommandArgument));
+
+                if (categoryId > 0)
+                {
+                    using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["MyEshoppingDB"].ConnectionString))
+                    {
+                        con.Open();
+                        using (SqlCommand cmd = new SqlCommand("DELETE FROM SubCategory WHERE SubCatid = " + categoryId, con))
+                        {
+                            cmd.ExecuteNonQuery();
+                        }
+                        con.Close();
+
+                        Response.Write("<script> alert('Category deleted successfully'); </script>");
+
+                        BindSubCatRptr();
+                    }
+                }
             }
         }
     }

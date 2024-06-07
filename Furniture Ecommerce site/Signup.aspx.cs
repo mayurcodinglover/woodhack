@@ -8,11 +8,18 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Configuration;
 using System.EnterpriseServices.Internal;
+using System.IO;
+using System.Security.Cryptography;
+using Org.BouncyCastle.Crypto.Tls;
+using Org.BouncyCastle.Tsp;
+using System.Web.Services.Description;
+using Org.BouncyCastle.Asn1.Ocsp;
 
 namespace Furniture_Ecommerce_site
 {
     public partial class WebForm2 : System.Web.UI.Page
     {
+        public static String CS = ConfigurationManager.ConnectionStrings["MyEshoppingDB"].ConnectionString;
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -20,65 +27,49 @@ namespace Furniture_Ecommerce_site
 
         protected void txtsignup_Click(object sender, EventArgs e)
         {
-
-            if (isformvalid())
+               using (SqlConnection con = new SqlConnection(CS))
             {
-                using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["MyEshoppingDB"].ConnectionString))
+                using (SqlCommand cmd = new SqlCommand("select *from Users", con))
                 {
                     con.Open();
-                    SqlCommand cmd = new SqlCommand("Insert into Users(Username,Password,Email,Name,Usertype) Values('" + txtUname.Text + "','" + txtPass.Text + "','" + txtEmail.Text + "','" + txtName.Text + "','User')", con);
                     cmd.ExecuteNonQuery();
-                    Response.Write("<script> alert('Registration successfully done'); </script>");
-                    clr();
-                    con.Close();
-                    lblmsg.Text = "Registration successfully done";
-                    lblmsg.ForeColor = System.Drawing.Color.Green;
-                    
+                    using (SqlDataAdapter da = new SqlDataAdapter(cmd))
+                    {
+                        DataTable dt = new DataTable();
+                        da.Fill(dt);
+                        for (int i = 0; i < dt.Rows.Count; i++)
+                        {
+                            if (txtEmail.Text == dt.Rows[i][3].ToString() || txtmono.Text == dt.Rows[i][7].ToString() || txtUname.Text == dt.Rows[i][1].ToString())
+                            {
+                                Response.Write("<script language='javascript'>alert('Please login to check the orders!');window.location.href = 'Signup.aspx';</script>");
+                                clr();
+                                
+                            }
+                        }
+                        using (SqlConnection con1 = new SqlConnection(ConfigurationManager.ConnectionStrings["MyEshoppingDB"].ConnectionString))
+                        {
+                            FileUpload1.SaveAs(Server.MapPath("~/userprofile/") + Path.GetFileName(FileUpload1.FileName));
+                            string img = "userprofile/" + Path.GetFileName(FileUpload1.FileName);
+                            con1.Open();
+                            SqlCommand cmd1 = new SqlCommand("Insert into Users(Username,Password,Email,Name,Usertype,PPic,Mobile,Address,Zipcode) Values('" + txtUname.Text + "','" + txtPass.Text + "','" + txtEmail.Text + "','" + txtName.Text + "','User','" + img + "','" + txtmono.Text + "','" + txtAddress.Text + "','" + txtZip.Text + "')", con);
+                            cmd1.ExecuteNonQuery();
+                            Response.Write("<script> alert('Registration successfully done'); </script>");
+                            clr();
+                            con1.Close();
+                            lblmsg.Text = "Registration successfully done";
+                            lblmsg.ForeColor = System.Drawing.Color.Green;
+
+                        }
+                        Response.Redirect("~/Signin.aspx");
+
+
+
+                    }
                 }
-                Response.Redirect("~/Signin.aspx");
-            }
-            else
-            {
-                Response.Write("<script> alert('Registration Failed'); </script>");
-                lblmsg.Text = "Registration Failed";
-                lblmsg.ForeColor = System.Drawing.Color.Red;
 
             }
-        }
-        private bool isformvalid()
-        {
-            if (txtUname.Text == "")
-            {
-                Response.Write("<script> alert('username is Empty'); </script>");
-                txtUname.Focus();
-                return false;
-            }
-            else if (txtPass.Text == "")
-            {
-                Response.Write("<script> alert('password is Empty'); </script>");
-                txtPass.Focus();
+            
 
-                return false;
-            }
-            else if (txtPass.Text != txtCpass.Text)
-            {
-                Response.Write("<script> alert('Password dosent match'); </script>");
-                txtCpass.Focus();
-                return false;
-            }
-            else if (txtEmail.Text == "")
-            {
-                Response.Write("<script> alert('Email is Empty'); </script>");
-                txtEmail.Focus();
-                return false;
-            }
-            else if (txtName.Text == "")
-            {
-                Response.Write("<script> alert('name is Empty'); </script>");
-                txtName.Focus();
-                return false;
-            }
-            return true;
         }
         private void clr()
         {
@@ -86,6 +77,10 @@ namespace Furniture_Ecommerce_site
             txtPass.Text = String.Empty;
             txtEmail.Text = String.Empty;
             txtName.Text = String.Empty;
+            txtmono.Text = String.Empty;
+            txtAddress.Text = String.Empty;
+            txtZip.Text = String.Empty;
         }
+
     }
 }

@@ -25,7 +25,7 @@ namespace Furniture_Ecommerce_site
             using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["MyEshoppingDB"].ConnectionString))
             {
                 con.Open();
-                SqlCommand cmd = new SqlCommand("Select *from login where Email=@Email", con);
+                SqlCommand cmd = new SqlCommand("Select *from Users where Email=@Email", con);
                 cmd.Parameters.AddWithValue("@Email",txtEmailID.Text);
                 SqlDataAdapter da = new SqlDataAdapter(cmd);
                 DataTable dt = new DataTable();
@@ -34,7 +34,7 @@ namespace Furniture_Ecommerce_site
                 {
                     String myGUID=Guid.NewGuid().ToString();
                     int Uid = Convert.ToInt32(dt.Rows[0][0]);
-                    SqlCommand cmd1 = new SqlCommand("Insert into ForgotPass(Id,Uid,RequestDateTime) values('"+myGUID+"','"+Uid+"',GETDATE())", con);
+                    SqlCommand cmd1 = new SqlCommand("Insert into ForgetPass(Id,Uid,RequestDateTime) values('"+myGUID+"','"+Uid+"',GETDATE())", con);
                     cmd1.ExecuteNonQuery();
 
 

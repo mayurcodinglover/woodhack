@@ -51,35 +51,36 @@
                 <ItemTemplate>
             <div class="divDel1">
                 <h1 class="proNameView"><%# Eval("PName") %></h1>
-                <span class="proOgpriceView">RS .<%# Eval("PPrice") %></span><span class="proOgpriceView"><%# string.Format("{0}",Convert.ToInt64(Eval("PPrice"))-Convert.ToInt64(Eval("PSelPrice"))) %></span><p class="propriceView">RS .<%# Eval("PSelPrice") %></p>
+                <span class="proOgpriceView">Rs. <%# Eval("PPrice","{0:00,0}")%></span>
+                <span class="proPriceDiscount">Rs. <%# string.Format("{0}",Convert.ToInt64(Eval("PPrice"))-Convert.ToInt64(Eval("PSelPrice"))) %> off</span>
+                <p class="propriceView">RS.&nbsp;<%# string.Format("{0}",Convert.ToInt64(Eval("PSelPrice"))) %></p>
             </div>
             <div>
-                    <h5 class="">Size</h5>
+                    <b><h5 class="">Sub - Category</h5></b>
                 <div>
-                    <asp:RadioButtonList ID="rblSize" runat="server" RepeatDirection="Horizontal">
-                        <%--<asp:ListItem Value="S" Text="S"></asp:ListItem>
-                        <asp:ListItem Value="M" Text="M"></asp:ListItem>
-                        <asp:ListItem Value="L" Text="L"></asp:ListItem>
-                        <asp:ListItem Value="XL" Text="XL"></asp:ListItem>--%>
-                    </asp:RadioButtonList>
+                    <b><asp:Label ID="lblsize" runat="server"></asp:Label></b>
                 </div>
             </div> 
+
             <div class="divDel1">
                 <asp:Button ID="btnAddtoCart" runat="server" Text="Add To Cart" CssClass="mainButton" onclick="btnAddtoCart_Click"/>
                 <asp:Label ID="lblError" runat="server" CssClass="text-danger"></asp:Label>
             </div>
-            <div class="divDel1">
-                    <h5 class="h5size">Description</h5>
-                <p><%# Eval("PDescription") %></p>
-                <h5 class="h5size">Product Details</h5>
-                <p><%# Eval("PDetails") %></p>
-                    <h5 class="h5size">mat &care </h5>
-                <p><%# Eval("PMaterial") %></p>
-
-            </div>
+           
+                    <div class="divDel1">
+                        <h5 class="">Description</h5>
+                        <p><%#Eval("PDescription") %></p>
+                    </div>
+                    <div class="divDel1">
+                        <h5 class="">Details</h5>
+                        <p><%#Eval("PDetails") %></p>
+                    </div>
+                    <div class="divDel1">
+                        <h5 class="">Material & Care</h5>
+                        <p><%#Eval("PMaterial") %></p>
+                    </div>
             <div>
                 <p><%# ((int)Eval("FreeDelivery")==1)? "Free Delivery":"" %></p>
-                <p><%# ((int)Eval("Return30day")==1)? "30 Day Return":"" %></p>
                 <p><%# ((int)Eval("COD")==1)? "Cash on Delivery":"" %></p>
 
             </div>
@@ -89,6 +90,7 @@
 
                 </ItemTemplate>
             </asp:Repeater>
+            
 
         </div>
     </div>

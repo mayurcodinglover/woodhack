@@ -10,6 +10,9 @@
     <meta http-equiv="X-UA-Compatible" content="chrome"/>
     <link href="css/Custom.css" rel="stylesheet" />
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <link rel="shortcut icon" type="image/x-icon" href="logo/favicon.ico">
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
@@ -28,14 +31,14 @@
 
 
                         </button>
-                        <a class="navbar-brand" href="WebForm1.aspx"><span><img  src="images/logo.jpg" alt="Logo" height="30px"/></span>WoodHack</a>
+                        <a class="navbar-brand" href="WebForm1.aspx"><span><img  src="images/logo.png" alt="Logo" height="30px"/></span>WoodHack</a>
                     </div>
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav navbar-right">
                             <li>
-                                <a href="Home.aspx">Home</a>
+                                <a href="AdminHomePage.aspx">Home</a>
                             </li>
-                            <li>
+                            <!--<li>
                                 <a href="#">About</a>
                             </li>
                             <li>
@@ -43,7 +46,7 @@
                             </li>
                             <li>
                                 <a href="#">Blog</a>
-                            </li>
+                            </li>-->
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products<b class="caret"></b></a>
                                 <ul class="dropdown-menu">
@@ -53,14 +56,28 @@
                             </li>
                              <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Manage<b class="caret"></b></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="AddBrand.aspx">Add Brand</a></li>
+                                     <li><a href="AddBrand.aspx">Add Collections</a></li>
                                     <li><a href="AddCategory.aspx">Add Category</a></li>
                                     <li><a href="SubCategory.aspx">Add Subcategory</a></li>
-                                    <li><a href="AddSize.aspx">Add Size</a></li>
+                                    <li><a href="orders.aspx">Manage Orders</a></li>
+                                    <li><a href="manageusers.aspx">Manage Users</a></li>
                                     
                                 
                                 </ul>
                             </li>
+
+                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Reports<b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="customerreport.aspx">Customer Report</a></li>    
+                                    <li><a href="sales_report.aspx">Sales Report</a></li>
+                                    <li><a href="StockReport.aspx">Stock Report</a></li>
+                                    <li><a href="ProfitReport.aspx">Revenue Report</a></li>
+                                </ul>
+                            </li>
+
+                            <!--<li>
+                                <a href="orders.aspx">Orders</a>
+                            </li>-->
 
                             <li>
                                 <asp:Button ID="btnAdminlogout" runat="server" Text="Logout" CssClass="btn btn navbar-default navbar-btn" OnClick="btnAdminlogout_Click" />
@@ -79,13 +96,13 @@
 
         </div>
     </form>
-    <!--footer start-->
+    <%--<!--footer start-->
              <footer>
             <div class="container">
                 <p class="pull-right"><a href="#">Back to Top</a></p>
                 <p>&copy;2022Woodhack.in &middot;<a href="WebForm1.aspx">Home</a>&middot;<a href="#">About</a>&middot;<a href="#">Contact</a>&middot;<a href="#">Products</a></p>
             </div>
         </footer>
-                <!--footer end-->
+                <!--footer end-->--%>
 </body>
 </html>

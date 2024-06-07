@@ -25,7 +25,7 @@ namespace Furniture_Ecommerce_site
                 if(GUIDvalue != null)
                 {
                     
-                    SqlCommand cmd = new SqlCommand("select *from ForgotPass where id=@id", con);
+                    SqlCommand cmd = new SqlCommand("select *from ForgetPass where id=@id", con);
                     cmd.Parameters.AddWithValue("@id", GUIDvalue);
                     SqlDataAdapter da = new SqlDataAdapter(cmd);
                     
@@ -73,13 +73,13 @@ namespace Furniture_Ecommerce_site
                 using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["MyEshoppingDB"].ConnectionString))
                 {
                     con.Open();
-                    SqlCommand cmd = new SqlCommand("Update login set Password=@p where Uid=@Uid", con);
+                    SqlCommand cmd = new SqlCommand("Update Users set Password=@p where Uid=@Uid", con);
                     cmd.Parameters.AddWithValue("@p", txtNewPass.Text);
                     cmd.Parameters.AddWithValue("@Uid", Uid);
                     cmd.ExecuteNonQuery();
 
 
-                    SqlCommand cmd2 = new SqlCommand("delete from ForgotPass where Uid='" + Uid + "'", con);
+                    SqlCommand cmd2 = new SqlCommand("delete from ForgetPass where Uid='" + Uid + "'", con);
                     cmd2.ExecuteNonQuery();
                     Response.Write("<script> alert('Passowrd Reset Successfully done'); </script>");
                     Response.Redirect("~/Signin.aspx");

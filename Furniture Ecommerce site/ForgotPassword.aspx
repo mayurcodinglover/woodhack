@@ -27,7 +27,7 @@
 
 
                         </button>
-                        <a class="navbar-brand" href="WebForm1.aspx"><span><img  src="images/logo.jpg" alt="Logo" height="30px"/></span>WoodHack</a>
+                        <a class="navbar-brand" href="WebForm1.aspx"><span><img  src="images/logo.png" alt="Logo" height="30px"/></span>WoodHack</a>
                     </div>
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav navbar-right">

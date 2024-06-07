@@ -43,6 +43,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.9.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\packages\BouncyCastle.1.8.9\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.3, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13.3\lib\itextsharp.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -67,16 +73,35 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="1seater.aspx" />
+    <Content Include="1seatrecliner.aspx" />
+    <Content Include="2doorwardrobe.aspx" />
+    <Content Include="2seater.aspx" />
+    <Content Include="2seatrecliner.aspx" />
+    <Content Include="3doorwardrobe.aspx" />
+    <Content Include="3seater.aspx" />
+    <Content Include="3seatrecliner.aspx" />
+    <Content Include="4doorwardrobe.aspx" />
+    <Content Include="4seatdining.aspx" />
+    <Content Include="6seatdining.aspx" />
+    <Content Include="8seatdining.aspx" />
+    <Content Include="About.aspx" />
     <Content Include="AddBrand.aspx" />
     <Content Include="AddCategory.aspx" />
     <Content Include="AddGender.aspx" />
     <Content Include="AddProduct.aspx" />
     <Content Include="AddSize.aspx" />
     <Content Include="AdminHomePage.aspx" />
+    <Content Include="Bed.aspx" />
+    <Content Include="bed\bed1.png" />
+    <Content Include="BookShelve.aspx" />
+    <Content Include="BookShelves\bookshelve.jpeg" />
     <Content Include="card image\chair.jpg" />
     <Content Include="card image\Table1.jpg" />
     <Content Include="card image\Table2.jpg" />
     <Content Include="Cart.aspx" />
+    <Content Include="Chair.aspx" />
+    <Content Include="Chairs\chair.jpg" />
     <Content Include="css\bootstrap-grid.css" />
     <Content Include="css\bootstrap-grid.min.css" />
     <Content Include="css\bootstrap-grid.rtl.css" />
@@ -94,11 +119,18 @@
     <Content Include="css\bootstrap.rtl.css" />
     <Content Include="css\bootstrap.rtl.min.css" />
     <Content Include="css\custom.css" />
+    <Content Include="Ottoman.aspx" />
+    <Content Include="customerreport.aspx" />
+    <Content Include="DiningTable.aspx" />
+    <Content Include="DiningTable\diningTable.jpg" />
+    <Content Include="DressingTable.aspx" />
+    <Content Include="DressingTable\dressingtable.jpg" />
     <Content Include="ForgotPassword.aspx" />
     <Content Include="Image slider\pr1.jpg" />
     <Content Include="Image slider\pr2.jpg" />
     <Content Include="Image slider\pr3.jpg" />
     <Content Include="images\1.jpeg" />
+    <Content Include="images\logo.png" />
     <Content Include="images\noimage.png" />
     <Content Include="js\bootstrap.bundle.js" />
     <Content Include="js\bootstrap.bundle.min.js" />
@@ -106,18 +138,158 @@
     <Content Include="js\bootstrap.esm.min.js" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
+    <Content Include="kingsize.aspx" />
+    <Content Include="logo\1.png" />
+    <Content Include="logo\Add Category.jpg" />
+    <Content Include="logo\Add Collection.jpg" />
+    <Content Include="logo\Add Product.jpg" />
+    <Content Include="logo\Add Sub-Category.jpg" />
+    <Content Include="logo\Customer Report.jpg" />
+    <Content Include="logo\favicon.ico" />
+    <Content Include="logo\Manage Orders.jpg" />
+    <Content Include="logo\Manage Users.jpg" />
+    <Content Include="logo\pic.png" />
+    <Content Include="logo\pic3.png" />
+    <Content Include="logo\pic4.png" />
+    <Content Include="logo\Sales Report.jpg" />
+    <Content Include="manageusers.aspx" />
+    <Content Include="Mattresses.aspx" />
+    <Content Include="Mattress\mattress.jpg" />
+    <Content Include="Office Chairs\officechair.jpg" />
+    <Content Include="OfficeChair.aspx" />
+    <Content Include="orders.aspx" />
+    <Content Include="orderuser.aspx" />
+    <Content Include="Ottoman\ottoman.png" />
     <Content Include="Payment.aspx" />
     <Content Include="Products.aspx" />
     <Content Include="ProductView.aspx" />
+    <Content Include="profile.aspx" />
+    <Content Include="ProfitReport.aspx" />
+    <Content Include="queensize.aspx" />
+    <Content Include="Recliner.aspx" />
+    <Content Include="recliner\rec1.png" />
     <Content Include="Recover Password.aspx" />
+    <Content Include="sales_report.aspx" />
+    <Content Include="ShoeRack.aspx" />
+    <Content Include="ShoeRack\shoerack.jpeg" />
     <Content Include="Signin.aspx" />
+    <Content Include="single.aspx" />
+    <Content Include="Sofa.aspx" />
+    <Content Include="sofaset.aspx" />
+    <Content Include="sofa\sofa1.png" />
+    <Content Include="sofa\sset1_1.png" />
+    <Content Include="sofa\sset1_2.png" />
+    <Content Include="sofa\sset1_3.png" />
+    <Content Include="sofa\sset1_4.png" />
+    <Content Include="sofa\sset1_5.png" />
+    <Content Include="StockReport.aspx" />
+    <Content Include="StudyTable.aspx" />
+    <Content Include="StudyTable\studytable.jpg" />
     <Content Include="SubCategory.aspx" />
-    <Content Include="userhome.aspx" />
+    <Content Include="Table.aspx" />
+    <Content Include="Table\table1.png" />
+    <Content Include="testinvoice.aspx" />
+    <Content Include="TVUnit.aspx" />
+    <Content Include="tvunit\tvunit.jpeg" />
+    <Content Include="Wardrobes.aspx" />
+    <Content Include="Wardrobes\wardrobe.jpeg" />
     <Content Include="Web.config" />
     <Content Include="Home.aspx" />
     <Content Include="Signup.aspx" />
+    <Content Include="House sshopping.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="1seater.aspx.cs">
+      <DependentUpon>1seater.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="1seater.aspx.designer.cs">
+      <DependentUpon>1seater.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="1seatrecliner.aspx.cs">
+      <DependentUpon>1seatrecliner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="1seatrecliner.aspx.designer.cs">
+      <DependentUpon>1seatrecliner.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="2doorwardrobe.aspx.cs">
+      <DependentUpon>2doorwardrobe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="2doorwardrobe.aspx.designer.cs">
+      <DependentUpon>2doorwardrobe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="2seater.aspx.cs">
+      <DependentUpon>2seater.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="2seater.aspx.designer.cs">
+      <DependentUpon>2seater.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="2seatrecliner.aspx.cs">
+      <DependentUpon>2seatrecliner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="2seatrecliner.aspx.designer.cs">
+      <DependentUpon>2seatrecliner.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="3doorwardrobe.aspx.cs">
+      <DependentUpon>3doorwardrobe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="3doorwardrobe.aspx.designer.cs">
+      <DependentUpon>3doorwardrobe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="3seater.aspx.cs">
+      <DependentUpon>3seater.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="3seater.aspx.designer.cs">
+      <DependentUpon>3seater.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="3seatrecliner.aspx.cs">
+      <DependentUpon>3seatrecliner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="3seatrecliner.aspx.designer.cs">
+      <DependentUpon>3seatrecliner.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="4doorwardrobe.aspx.cs">
+      <DependentUpon>4doorwardrobe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="4doorwardrobe.aspx.designer.cs">
+      <DependentUpon>4doorwardrobe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="4seatdining.aspx.cs">
+      <DependentUpon>4seatdining.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="4seatdining.aspx.designer.cs">
+      <DependentUpon>4seatdining.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="6seatdining.aspx.cs">
+      <DependentUpon>6seatdining.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="6seatdining.aspx.designer.cs">
+      <DependentUpon>6seatdining.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="8seatdining.aspx.cs">
+      <DependentUpon>8seatdining.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="8seatdining.aspx.designer.cs">
+      <DependentUpon>8seatdining.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AddBrand.aspx.cs">
       <DependentUpon>AddBrand.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -167,6 +339,20 @@
     <Compile Include="AdminMasterPage.Master.designer.cs">
       <DependentUpon>AdminMasterPage.Master</DependentUpon>
     </Compile>
+    <Compile Include="Bed.aspx.cs">
+      <DependentUpon>Bed.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bed.aspx.designer.cs">
+      <DependentUpon>Bed.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BookShelve.aspx.cs">
+      <DependentUpon>BookShelve.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BookShelve.aspx.designer.cs">
+      <DependentUpon>BookShelve.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Cart.aspx.cs">
       <DependentUpon>Cart.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -174,12 +360,89 @@
     <Compile Include="Cart.aspx.designer.cs">
       <DependentUpon>Cart.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Chair.aspx.cs">
+      <DependentUpon>Chair.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chair.aspx.designer.cs">
+      <DependentUpon>Chair.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ottoman.aspx.cs">
+      <DependentUpon>Ottoman.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ottoman.aspx.designer.cs">
+      <DependentUpon>Ottoman.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="customerreport.aspx.cs">
+      <DependentUpon>customerreport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="customerreport.aspx.designer.cs">
+      <DependentUpon>customerreport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DiningTable.aspx.cs">
+      <DependentUpon>DiningTable.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DiningTable.aspx.designer.cs">
+      <DependentUpon>DiningTable.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DressingTable.aspx.cs">
+      <DependentUpon>DressingTable.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DressingTable.aspx.designer.cs">
+      <DependentUpon>DressingTable.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ForgotPassword.aspx.cs">
       <DependentUpon>ForgotPassword.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ForgotPassword.aspx.designer.cs">
       <DependentUpon>ForgotPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kingsize.aspx.cs">
+      <DependentUpon>kingsize.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kingsize.aspx.designer.cs">
+      <DependentUpon>kingsize.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="manageusers.aspx.cs">
+      <DependentUpon>manageusers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="manageusers.aspx.designer.cs">
+      <DependentUpon>manageusers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mattresses.aspx.cs">
+      <DependentUpon>Mattresses.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mattresses.aspx.designer.cs">
+      <DependentUpon>Mattresses.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OfficeChair.aspx.cs">
+      <DependentUpon>OfficeChair.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OfficeChair.aspx.designer.cs">
+      <DependentUpon>OfficeChair.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="orders.aspx.cs">
+      <DependentUpon>orders.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="orders.aspx.designer.cs">
+      <DependentUpon>orders.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="orderuser.aspx.cs">
+      <DependentUpon>orderuser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="orderuser.aspx.designer.cs">
+      <DependentUpon>orderuser.aspx</DependentUpon>
     </Compile>
     <Compile Include="Payment.aspx.cs">
       <DependentUpon>Payment.aspx</DependentUpon>
@@ -202,7 +465,35 @@
     <Compile Include="ProductView.aspx.designer.cs">
       <DependentUpon>ProductView.aspx</DependentUpon>
     </Compile>
+    <Compile Include="profile.aspx.cs">
+      <DependentUpon>profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="profile.aspx.designer.cs">
+      <DependentUpon>profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProfitReport.aspx.cs">
+      <DependentUpon>ProfitReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProfitReport.aspx.designer.cs">
+      <DependentUpon>ProfitReport.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="queensize.aspx.cs">
+      <DependentUpon>queensize.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="queensize.aspx.designer.cs">
+      <DependentUpon>queensize.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Recliner.aspx.cs">
+      <DependentUpon>Recliner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recliner.aspx.designer.cs">
+      <DependentUpon>Recliner.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Recover Password.aspx.cs">
       <DependentUpon>Recover Password.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -210,12 +501,33 @@
     <Compile Include="Recover Password.aspx.designer.cs">
       <DependentUpon>Recover Password.aspx</DependentUpon>
     </Compile>
+    <Compile Include="sales_report.aspx.cs">
+      <DependentUpon>sales_report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sales_report.aspx.designer.cs">
+      <DependentUpon>sales_report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShoeRack.aspx.cs">
+      <DependentUpon>ShoeRack.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShoeRack.aspx.designer.cs">
+      <DependentUpon>ShoeRack.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Signin.aspx.cs">
       <DependentUpon>Signin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Signin.aspx.designer.cs">
       <DependentUpon>Signin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="single.aspx.cs">
+      <DependentUpon>single.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="single.aspx.designer.cs">
+      <DependentUpon>single.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
@@ -238,6 +550,34 @@
     <Compile Include="Signup.aspx.designer.cs">
       <DependentUpon>Signup.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Sofa.aspx.cs">
+      <DependentUpon>Sofa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sofa.aspx.designer.cs">
+      <DependentUpon>Sofa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sofaset.aspx.cs">
+      <DependentUpon>sofaset.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sofaset.aspx.designer.cs">
+      <DependentUpon>sofaset.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StockReport.aspx.cs">
+      <DependentUpon>StockReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StockReport.aspx.designer.cs">
+      <DependentUpon>StockReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudyTable.aspx.cs">
+      <DependentUpon>StudyTable.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudyTable.aspx.designer.cs">
+      <DependentUpon>StudyTable.aspx</DependentUpon>
+    </Compile>
     <Compile Include="SubCategory.aspx.cs">
       <DependentUpon>SubCategory.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -245,12 +585,40 @@
     <Compile Include="SubCategory.aspx.designer.cs">
       <DependentUpon>SubCategory.aspx</DependentUpon>
     </Compile>
-    <Compile Include="userhome.aspx.cs">
-      <DependentUpon>userhome.aspx</DependentUpon>
+    <Compile Include="Table.aspx.cs">
+      <DependentUpon>Table.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="userhome.aspx.designer.cs">
-      <DependentUpon>userhome.aspx</DependentUpon>
+    <Compile Include="Table.aspx.designer.cs">
+      <DependentUpon>Table.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="testinvoice.aspx.cs">
+      <DependentUpon>testinvoice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="testinvoice.aspx.designer.cs">
+      <DependentUpon>testinvoice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TVUnit.aspx.cs">
+      <DependentUpon>TVUnit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TVUnit.aspx.designer.cs">
+      <DependentUpon>TVUnit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="House sshopping.aspx.cs">
+      <DependentUpon>House sshopping.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="House sshopping.aspx.designer.cs">
+      <DependentUpon>House sshopping.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Wardrobes.aspx.cs">
+      <DependentUpon>Wardrobes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Wardrobes.aspx.designer.cs">
+      <DependentUpon>Wardrobes.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -286,7 +654,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="userprofile\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

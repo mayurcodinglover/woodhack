@@ -28,8 +28,8 @@
                 </div>
             </div>
 
-            <div class="form-group">
-                <asp:Label ID="Label4" runat="server" Text="Brand" CssClass="col-md-2 control-label"></asp:Label>
+             <div class="form-group">
+                <asp:Label ID="Label4" runat="server" Text="Collection" CssClass="col-md-2 control-label"></asp:Label>
                 <div class="col-md-3">
                     <asp:DropDownList ID="ddlBrand" runat="server" CssClass="form-control"></asp:DropDownList>
                 </div>
@@ -119,12 +119,12 @@
                 </div>
             </div>
 
-            <div class="form-group">
+            <!--<div class="form-group">
                 <asp:Label ID="Label17" runat="server" Text="30 Day Return" CssClass="col-md-2 control-label"></asp:Label>
                 <div class="col-md-3">
                     <asp:CheckBox ID="ch30Ret" runat="server" />
                 </div>
-            </div>
+            </div>-->
 
             <div class="form-group">
                 <asp:Label ID="Label18" runat="server" Text="COD" CssClass="col-md-2 control-label"></asp:Label>

@@ -10,9 +10,9 @@
                 <div class="form-group">
                     <asp:Label ID="Label1" CssClass="col-md-2 control-label" runat="server" Text="CategoryName"></asp:Label>
                     <div class="col-md-3">
+                        <asp:HiddenField ID="hdnCategoryID" runat="server" />
                         <asp:TextBox ID="txtCategory" class="form-control" runat="server"></asp:TextBox>
-                        <asp:RequiredFieldValidator ID="RequiredFieldValidatortxtCategoryName" runat="server" ErrorMessage="Please Enter Brand Name...." ControlToValidate="txtCategory" CssClass="text-danger" Display="Dynamic" ForeColor="Red" SetFocusOnError="True"></asp:RequiredFieldValidator>
-
+                        <asp:RequiredFieldValidator Visible = "false" ID="RequiredFieldValidatortxtCategoryName" runat="server" ErrorMessage="Please Enter Category Name...." ControlToValidate="txtCategory" CssClass="text-danger" Display="Dynamic" ForeColor="Red" SetFocusOnError="True"></asp:RequiredFieldValidator>
                     </div>
                 </div>
                
@@ -29,14 +29,14 @@
          <div class="panel panel-default">
              <div class="panel-heading">All Categories</div>
 
-             <asp:Repeater ID="rptrCategory" runat="server">
+             <asp:Repeater ID="rptrCategory" runat="server" OnItemCommand="rptrCategory_ItemCommand">
                 <HeaderTemplate>
                     <table class="table">
                  <thead>
                      <tr>
                          <th>#</th>
                          <th>Categories</th>
-                         <th>Edit</th>
+                         <th>Action</th>
                      </tr>
                  </thead>
                  <tbody>
@@ -45,7 +45,12 @@
                       <tr>
                          <th><%#Eval("CatID") %></th>
                          <td><%#Eval("CatName") %></td>
-                         <td>Edit</td>
+                         <td>
+                             <asp:LinkButton ID="lnkEdit" CommandName="Edit" CommandArgument='<%# DataBinder.Eval(Container.DataItem, "CatID") %>' runat="server">Edit</asp:LinkButton>
+                             &nbsp;&nbsp;&nbsp;
+                             <asp:LinkButton ID="lnkDelete" CommandName="Delete" CommandArgument='<%# DataBinder.Eval(Container.DataItem, "CatID") %>' runat="server" OnClientClick="return confirm('Do you want to delete this category?');">Delete</asp:LinkButton>
+
+                         </td>
 
                      </tr>
                  </ItemTemplate>

@@ -53,7 +53,7 @@ namespace Furniture_Ecommerce_site
                     else
                     {
                         Response.Cookies["UNAME"].Expires = DateTime.Now.AddDays(-1);
-                        Response.Cookies["UNAME"].Expires = DateTime.Now.AddDays(-1);
+                        Response.Cookies["UPWD"].Expires = DateTime.Now.AddDays(-1);
 
                     }
                     string Utype;
@@ -70,7 +70,7 @@ namespace Furniture_Ecommerce_site
                         }
                         else
                         {
-                            Response.Redirect("~/userhome.aspx");
+                            Response.Redirect("~/Home.aspx");
                         }
                         
                     }

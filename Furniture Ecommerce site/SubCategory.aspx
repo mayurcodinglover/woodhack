@@ -13,8 +13,9 @@
                 <div class="form-group">
                     <asp:Label ID="Label2" CssClass="col-md-2 control-label" runat="server" Text="Main CategoryID"></asp:Label>
                     <div class="col-md-3">
+                        <asp:HiddenField ID="hdnSubCategoryID" runat="server" />
                         <asp:DropDownList ID="ddlMainCatID" runat="server" CssClass="form-control"></asp:DropDownList>
-                        <asp:RequiredFieldValidator ID="RequiredFieldValidatorddlMainCatID" runat="server" ErrorMessage="Please Enter MainCategoryId Name...." ControlToValidate="ddlMainCatID" CssClass="text-danger" Display="Dynamic" ForeColor="Red" SetFocusOnError="True"></asp:RequiredFieldValidator>
+                        <asp:RequiredFieldValidator Visible="false" ID="RequiredFieldValidatorddlMainCatID" runat="server" ErrorMessage="Please Enter MainCategoryId Name...." ControlToValidate="ddlMainCatID" CssClass="text-danger" Display="Dynamic" ForeColor="Red" SetFocusOnError="True"></asp:RequiredFieldValidator>
 
                     </div>
                 </div>
@@ -23,7 +24,7 @@
                     <asp:Label ID="Label1" CssClass="col-md-2 control-label" runat="server" Text="SubCategoryName"></asp:Label>
                     <div class="col-md-3">
                         <asp:TextBox ID="txtSubCategory" class="form-control" runat="server"></asp:TextBox>
-                        <asp:RequiredFieldValidator ID="RequiredFieldValidatortxtSubCategoryName" runat="server" ErrorMessage="Please Enter SubCategory Name...." ControlToValidate="txtSubCategory" CssClass="text-danger" Display="Dynamic" ForeColor="Red" SetFocusOnError="True"></asp:RequiredFieldValidator>
+                        <asp:RequiredFieldValidator Visible="false" ID="RequiredFieldValidatortxtSubCategoryName" runat="server" ErrorMessage="Please Enter SubCategory Name...." ControlToValidate="txtSubCategory" CssClass="text-danger" Display="Dynamic" ForeColor="Red" SetFocusOnError="True"></asp:RequiredFieldValidator>
 
                     </div>
                 </div>
@@ -41,7 +42,7 @@
          <div class="panel panel-default">
              <div class="panel-heading">All Sub Categories</div>
 
-             <asp:Repeater ID="rptrSubcat" runat="server">
+             <asp:Repeater ID="rptrSubcat" runat="server" OnItemCommand="rptrSubCategory_ItemCommand">
                 <HeaderTemplate>
                     <table class="table">
                  <thead>
@@ -49,7 +50,7 @@
                          <th>#</th>
                          <th>Sub Category</th>
                          <th>Main Category</th>
-                         <th>Edit</th>
+                         <th>Action</th>
                      </tr>
                  </thead>
                  <tbody>
@@ -59,7 +60,12 @@
                          <th><%#Eval("SubCatID") %></th>
                          <td><%#Eval("SubCatName") %></td>
                          <td><%#Eval("CatName") %></td>
-                         <td>Edit</td>
+                         <td>
+                             <asp:LinkButton ID="lnkEdit" CommandName="Edit" CommandArgument='<%# DataBinder.Eval(Container.DataItem, "SubCatID") %>' runat="server">Edit</asp:LinkButton>
+                             &nbsp;&nbsp;&nbsp;
+                             <asp:LinkButton ID="lnkDelete" CommandName="Delete" CommandArgument='<%# DataBinder.Eval(Container.DataItem, "SubCatID") %>' runat="server" OnClientClick="return confirm('Do you want to delete this Subcategory?');">Delete</asp:LinkButton>
+
+                         </td>
 
                      </tr>
                  </ItemTemplate>

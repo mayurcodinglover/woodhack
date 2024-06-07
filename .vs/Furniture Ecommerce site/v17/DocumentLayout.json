@@ -1,0 +1,749 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|c:\\users\\dell\\onedrive\\desktop\\sem 6 final sdp\\woodhack\\woodhack\\final\\furniture ecommerce site\\furniture ecommerce site\\testinvoice.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|solutionrelative:furniture ecommerce site\\testinvoice.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\furniture ecommerce site\\testinvoice.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|solutionrelative:furniture ecommerce site\\testinvoice.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\furniture ecommerce site\\cart.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|solutionrelative:furniture ecommerce site\\cart.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\furniture ecommerce site\\orderuser.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|solutionrelative:furniture ecommerce site\\orderuser.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\furniture ecommerce site\\signin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|solutionrelative:furniture ecommerce site\\signin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\furniture ecommerce site\\addbrand.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|solutionrelative:furniture ecommerce site\\addbrand.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\furniture ecommerce site\\addbrand.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|solutionrelative:furniture ecommerce site\\addbrand.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\furniture ecommerce site\\signup.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|solutionrelative:furniture ecommerce site\\signup.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\furniture ecommerce site\\signup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|solutionrelative:furniture ecommerce site\\signup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\furniture ecommerce site\\payment.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|solutionrelative:furniture ecommerce site\\payment.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\furniture ecommerce site\\site1.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|solutionrelative:furniture ecommerce site\\site1.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\furniture ecommerce site\\forgotpassword.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|solutionrelative:furniture ecommerce site\\forgotpassword.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\furniture ecommerce site\\cart.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|solutionrelative:furniture ecommerce site\\cart.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\furniture ecommerce site\\signin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|solutionrelative:furniture ecommerce site\\signin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\furniture ecommerce site\\payment.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|solutionrelative:furniture ecommerce site\\payment.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\furniture ecommerce site\\productview.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|solutionrelative:furniture ecommerce site\\productview.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\furniture ecommerce site\\productview.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|solutionrelative:furniture ecommerce site\\productview.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\furniture ecommerce site\\products.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|solutionrelative:furniture ecommerce site\\products.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\furniture ecommerce site\\products.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|solutionrelative:furniture ecommerce site\\products.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\furniture ecommerce site\\sofa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|solutionrelative:furniture ecommerce site\\sofa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\furniture ecommerce site\\sofa.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|solutionrelative:furniture ecommerce site\\sofa.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\furniture ecommerce site\\orders.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|solutionrelative:furniture ecommerce site\\orders.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\furniture ecommerce site\\addproduct.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|solutionrelative:furniture ecommerce site\\addproduct.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\furniture ecommerce site\\addproduct.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|solutionrelative:furniture ecommerce site\\addproduct.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\furniture ecommerce site\\orders.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|solutionrelative:furniture ecommerce site\\orders.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\furniture ecommerce site\\manageusers.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|solutionrelative:furniture ecommerce site\\manageusers.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\furniture ecommerce site\\profitreport.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|solutionrelative:furniture ecommerce site\\profitreport.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\furniture ecommerce site\\profitreport.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|solutionrelative:furniture ecommerce site\\profitreport.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\furniture ecommerce site\\stockreport.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|solutionrelative:furniture ecommerce site\\stockreport.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\furniture ecommerce site\\stockreport.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|solutionrelative:furniture ecommerce site\\stockreport.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\furniture ecommerce site\\customerreport.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|solutionrelative:furniture ecommerce site\\customerreport.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\furniture ecommerce site\\sales_report.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|solutionrelative:furniture ecommerce site\\sales_report.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\furniture ecommerce site\\sales_report.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|solutionrelative:furniture ecommerce site\\sales_report.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\furniture ecommerce site\\customerreport.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|solutionrelative:furniture ecommerce site\\customerreport.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\furniture ecommerce site\\manageusers.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|solutionrelative:furniture ecommerce site\\manageusers.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\furniture ecommerce site\\subcategory.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|solutionrelative:furniture ecommerce site\\subcategory.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\furniture ecommerce site\\subcategory.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|solutionrelative:furniture ecommerce site\\subcategory.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\furniture ecommerce site\\site1.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|solutionrelative:furniture ecommerce site\\site1.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\furniture ecommerce site\\profile.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|solutionrelative:furniture ecommerce site\\profile.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\furniture ecommerce site\\profile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|solutionrelative:furniture ecommerce site\\profile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\furniture ecommerce site\\diningtable.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|solutionrelative:furniture ecommerce site\\diningtable.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\furniture ecommerce site\\diningtable.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|solutionrelative:furniture ecommerce site\\diningtable.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\furniture ecommerce site\\forgotpassword.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|solutionrelative:furniture ecommerce site\\forgotpassword.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\furniture ecommerce site\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|solutionrelative:furniture ecommerce site\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\furniture ecommerce site\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AF5A6F88-2FDA-4E49-8CA8-362AF75F3B07}|Furniture Ecommerce site\\Furniture Ecommerce site.csproj|solutionrelative:furniture ecommerce site\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Site1.Master",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\Site1.Master",
+              "RelativeDocumentMoniker": "Furniture Ecommerce site\\Site1.Master",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\Site1.Master",
+              "RelativeToolTip": "Furniture Ecommerce site\\Site1.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2023-04-19T08:28:51.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "orderuser.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\orderuser.aspx.cs",
+              "RelativeDocumentMoniker": "Furniture Ecommerce site\\orderuser.aspx.cs",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\orderuser.aspx.cs",
+              "RelativeToolTip": "Furniture Ecommerce site\\orderuser.aspx.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAvwBsAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-04-19T09:49:22.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ForgotPassword.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\ForgotPassword.aspx.cs",
+              "RelativeDocumentMoniker": "Furniture Ecommerce site\\ForgotPassword.aspx.cs",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\ForgotPassword.aspx.cs",
+              "RelativeToolTip": "Furniture Ecommerce site\\ForgotPassword.aspx.cs",
+              "ViewState": "AQIAAA8AAADAZmZmZuYawCQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-04-19T08:47:22.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Cart.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\Cart.aspx.cs",
+              "RelativeDocumentMoniker": "Furniture Ecommerce site\\Cart.aspx.cs",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\Cart.aspx.cs",
+              "RelativeToolTip": "Furniture Ecommerce site\\Cart.aspx.cs",
+              "ViewState": "AQIAAMAAAAAAAAAAAAAnwMsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-04-19T09:09:26.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Signup.aspx",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\Signup.aspx",
+              "RelativeDocumentMoniker": "Furniture Ecommerce site\\Signup.aspx",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\Signup.aspx",
+              "RelativeToolTip": "Furniture Ecommerce site\\Signup.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2023-04-19T08:34:59.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "testinvoice.aspx",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\testinvoice.aspx",
+              "RelativeDocumentMoniker": "Furniture Ecommerce site\\testinvoice.aspx",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\testinvoice.aspx",
+              "RelativeToolTip": "Furniture Ecommerce site\\testinvoice.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2023-04-19T13:40:35.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "testinvoice.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\testinvoice.aspx.cs",
+              "RelativeDocumentMoniker": "Furniture Ecommerce site\\testinvoice.aspx.cs",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\testinvoice.aspx.cs",
+              "RelativeToolTip": "Furniture Ecommerce site\\testinvoice.aspx.cs",
+              "ViewState": "AQIAAAUAAAAAkJmZmVkqwKkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-04-19T13:54:22.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductView.aspx",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\ProductView.aspx",
+              "RelativeDocumentMoniker": "Furniture Ecommerce site\\ProductView.aspx",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\ProductView.aspx",
+              "RelativeToolTip": "Furniture Ecommerce site\\ProductView.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2023-04-19T08:59:28.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Signin.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\Signin.aspx.cs",
+              "RelativeDocumentMoniker": "Furniture Ecommerce site\\Signin.aspx.cs",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\Signin.aspx.cs",
+              "RelativeToolTip": "Furniture Ecommerce site\\Signin.aspx.cs",
+              "ViewState": "AQIAAEEAAACAFzMzMzPrv1IAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-04-19T08:33:31.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Signup.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\Signup.aspx.cs",
+              "RelativeDocumentMoniker": "Furniture Ecommerce site\\Signup.aspx.cs",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\Signup.aspx.cs",
+              "RelativeToolTip": "Furniture Ecommerce site\\Signup.aspx.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAhwDcAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-04-19T08:35:39.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddBrand.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\AddBrand.aspx.cs",
+              "RelativeDocumentMoniker": "Furniture Ecommerce site\\AddBrand.aspx.cs",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\AddBrand.aspx.cs",
+              "RelativeToolTip": "Furniture Ecommerce site\\AddBrand.aspx.cs",
+              "ViewState": "AQIAAHIAAACAoZmZmVkqwIUAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-04-19T09:52:04.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddBrand.aspx",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\AddBrand.aspx",
+              "RelativeDocumentMoniker": "Furniture Ecommerce site\\AddBrand.aspx",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\AddBrand.aspx",
+              "RelativeToolTip": "Furniture Ecommerce site\\AddBrand.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2023-04-19T09:51:49.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Signin.aspx",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\Signin.aspx",
+              "RelativeDocumentMoniker": "Furniture Ecommerce site\\Signin.aspx",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\Signin.aspx",
+              "RelativeToolTip": "Furniture Ecommerce site\\Signin.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2023-04-19T08:32:40.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Payment.aspx",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\Payment.aspx",
+              "RelativeDocumentMoniker": "Furniture Ecommerce site\\Payment.aspx",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\Payment.aspx",
+              "RelativeToolTip": "Furniture Ecommerce site\\Payment.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2023-04-19T09:42:21.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Cart.aspx",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\Cart.aspx",
+              "RelativeDocumentMoniker": "Furniture Ecommerce site\\Cart.aspx",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\Cart.aspx",
+              "RelativeToolTip": "Furniture Ecommerce site\\Cart.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2023-04-19T09:31:49.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProductView.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\ProductView.aspx.cs",
+              "RelativeDocumentMoniker": "Furniture Ecommerce site\\ProductView.aspx.cs",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\ProductView.aspx.cs",
+              "RelativeToolTip": "Furniture Ecommerce site\\ProductView.aspx.cs",
+              "ViewState": "AQIAAK4AAACABAAAAIApwPoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-04-19T09:01:00.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Products.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\Products.aspx.cs",
+              "RelativeDocumentMoniker": "Furniture Ecommerce site\\Products.aspx.cs",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\Products.aspx.cs",
+              "RelativeToolTip": "Furniture Ecommerce site\\Products.aspx.cs",
+              "ViewState": "AQIAAAcAAAAAMzMzMzMLwBYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-04-19T08:53:36.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Payment.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\Payment.aspx.cs",
+              "RelativeDocumentMoniker": "Furniture Ecommerce site\\Payment.aspx.cs",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\Payment.aspx.cs",
+              "RelativeToolTip": "Furniture Ecommerce site\\Payment.aspx.cs",
+              "ViewState": "AQIAAAEAAABAZmZmZmYkwAkAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-04-19T09:42:34.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Products.aspx",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\Products.aspx",
+              "RelativeDocumentMoniker": "Furniture Ecommerce site\\Products.aspx",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\Products.aspx",
+              "RelativeToolTip": "Furniture Ecommerce site\\Products.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2023-04-19T08:50:25.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AddProduct.aspx",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\AddProduct.aspx",
+              "RelativeDocumentMoniker": "Furniture Ecommerce site\\AddProduct.aspx",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\AddProduct.aspx",
+              "RelativeToolTip": "Furniture Ecommerce site\\AddProduct.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2023-04-19T10:33:03.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "StockReport.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\StockReport.aspx.cs",
+              "RelativeDocumentMoniker": "Furniture Ecommerce site\\StockReport.aspx.cs",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\StockReport.aspx.cs",
+              "RelativeToolTip": "Furniture Ecommerce site\\StockReport.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-04-19T10:19:19.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ProfitReport.aspx",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\ProfitReport.aspx",
+              "RelativeDocumentMoniker": "Furniture Ecommerce site\\ProfitReport.aspx",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\ProfitReport.aspx",
+              "RelativeToolTip": "Furniture Ecommerce site\\ProfitReport.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2023-04-19T10:20:41.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ProfitReport.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\ProfitReport.aspx.cs",
+              "RelativeDocumentMoniker": "Furniture Ecommerce site\\ProfitReport.aspx.cs",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\ProfitReport.aspx.cs",
+              "RelativeToolTip": "Furniture Ecommerce site\\ProfitReport.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-04-19T10:20:46.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "orders.aspx",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\orders.aspx",
+              "RelativeDocumentMoniker": "Furniture Ecommerce site\\orders.aspx",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\orders.aspx",
+              "RelativeToolTip": "Furniture Ecommerce site\\orders.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2023-04-19T10:23:39.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "orders.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\orders.aspx.cs",
+              "RelativeDocumentMoniker": "Furniture Ecommerce site\\orders.aspx.cs",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\orders.aspx.cs",
+              "RelativeToolTip": "Furniture Ecommerce site\\orders.aspx.cs",
+              "ViewState": "AQIAAM8AAAAAaGZmZiYwwN4AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-04-19T10:23:47.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Sofa.aspx",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\Sofa.aspx",
+              "RelativeDocumentMoniker": "Furniture Ecommerce site\\Sofa.aspx",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\Sofa.aspx",
+              "RelativeToolTip": "Furniture Ecommerce site\\Sofa.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2023-04-19T12:38:06.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Sofa.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\Sofa.aspx.cs",
+              "RelativeDocumentMoniker": "Furniture Ecommerce site\\Sofa.aspx.cs",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\Sofa.aspx.cs",
+              "RelativeToolTip": "Furniture Ecommerce site\\Sofa.aspx.cs",
+              "ViewState": "AQIAAAYAAADwMDMzMzMrwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-04-19T12:38:26.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AddProduct.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\AddProduct.aspx.cs",
+              "RelativeDocumentMoniker": "Furniture Ecommerce site\\AddProduct.aspx.cs",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\AddProduct.aspx.cs",
+              "RelativeToolTip": "Furniture Ecommerce site\\AddProduct.aspx.cs",
+              "ViewState": "AQIAAM8AAAAAYjMzMzMrwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-04-19T10:33:12.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "StockReport.aspx",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\StockReport.aspx",
+              "RelativeDocumentMoniker": "Furniture Ecommerce site\\StockReport.aspx",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\StockReport.aspx",
+              "RelativeToolTip": "Furniture Ecommerce site\\StockReport.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2023-04-19T10:19:12.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "sales_report.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\sales_report.aspx.cs",
+              "RelativeDocumentMoniker": "Furniture Ecommerce site\\sales_report.aspx.cs",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\sales_report.aspx.cs",
+              "RelativeToolTip": "Furniture Ecommerce site\\sales_report.aspx.cs",
+              "ViewState": "AQIAAAYAAAAALjMzMzMLwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-04-19T10:10:33.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "sales_report.aspx",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\sales_report.aspx",
+              "RelativeDocumentMoniker": "Furniture Ecommerce site\\sales_report.aspx",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\sales_report.aspx",
+              "RelativeToolTip": "Furniture Ecommerce site\\sales_report.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2023-04-19T10:10:25.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "customerreport.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\customerreport.aspx.cs",
+              "RelativeDocumentMoniker": "Furniture Ecommerce site\\customerreport.aspx.cs",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\customerreport.aspx.cs",
+              "RelativeToolTip": "Furniture Ecommerce site\\customerreport.aspx.cs",
+              "ViewState": "AQIAABoAAACI/////79dwDoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-04-19T10:08:25.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "manageusers.aspx",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\manageusers.aspx",
+              "RelativeDocumentMoniker": "Furniture Ecommerce site\\manageusers.aspx",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\manageusers.aspx",
+              "RelativeToolTip": "Furniture Ecommerce site\\manageusers.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2023-04-19T10:02:57.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "customerreport.aspx",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\customerreport.aspx",
+              "RelativeDocumentMoniker": "Furniture Ecommerce site\\customerreport.aspx",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\customerreport.aspx",
+              "RelativeToolTip": "Furniture Ecommerce site\\customerreport.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2023-04-19T10:08:20.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "manageusers.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\manageusers.aspx.cs",
+              "RelativeDocumentMoniker": "Furniture Ecommerce site\\manageusers.aspx.cs",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\manageusers.aspx.cs",
+              "RelativeToolTip": "Furniture Ecommerce site\\manageusers.aspx.cs",
+              "ViewState": "AQIAAFoAAAAAyszMzMwHwGYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-04-19T10:03:34.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "SubCategory.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\SubCategory.aspx.cs",
+              "RelativeDocumentMoniker": "Furniture Ecommerce site\\SubCategory.aspx.cs",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\SubCategory.aspx.cs",
+              "RelativeToolTip": "Furniture Ecommerce site\\SubCategory.aspx.cs",
+              "ViewState": "AQIAAJIAAAAAopmZmZkuwCwAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-04-19T09:59:26.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "SubCategory.aspx",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\SubCategory.aspx",
+              "RelativeDocumentMoniker": "Furniture Ecommerce site\\SubCategory.aspx",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\SubCategory.aspx",
+              "RelativeToolTip": "Furniture Ecommerce site\\SubCategory.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2023-04-19T09:57:02.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "profile.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\profile.aspx.cs",
+              "RelativeDocumentMoniker": "Furniture Ecommerce site\\profile.aspx.cs",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\profile.aspx.cs",
+              "RelativeToolTip": "Furniture Ecommerce site\\profile.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-04-19T09:47:23.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "profile.aspx",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\profile.aspx",
+              "RelativeDocumentMoniker": "Furniture Ecommerce site\\profile.aspx",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\profile.aspx",
+              "RelativeToolTip": "Furniture Ecommerce site\\profile.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2023-04-19T09:47:12.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Site1.Master.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\Site1.Master.cs",
+              "RelativeDocumentMoniker": "Furniture Ecommerce site\\Site1.Master.cs",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\Site1.Master.cs",
+              "RelativeToolTip": "Furniture Ecommerce site\\Site1.Master.cs",
+              "ViewState": "AQIAAH4AAAAAgpmZmZkOwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-04-19T09:46:16.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "DiningTable.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\DiningTable.aspx.cs",
+              "RelativeDocumentMoniker": "Furniture Ecommerce site\\DiningTable.aspx.cs",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\DiningTable.aspx.cs",
+              "RelativeToolTip": "Furniture Ecommerce site\\DiningTable.aspx.cs",
+              "ViewState": "AQIAAAgAAACAZGZmZmYkwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-04-19T09:45:31.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "DiningTable.aspx",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\DiningTable.aspx",
+              "RelativeDocumentMoniker": "Furniture Ecommerce site\\DiningTable.aspx",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\DiningTable.aspx",
+              "RelativeToolTip": "Furniture Ecommerce site\\DiningTable.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2023-04-19T09:45:25.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ForgotPassword.aspx",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\ForgotPassword.aspx",
+              "RelativeDocumentMoniker": "Furniture Ecommerce site\\ForgotPassword.aspx",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\ForgotPassword.aspx",
+              "RelativeToolTip": "Furniture Ecommerce site\\ForgotPassword.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2023-04-19T08:44:57.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "About.aspx",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\About.aspx",
+              "RelativeDocumentMoniker": "Furniture Ecommerce site\\About.aspx",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\About.aspx",
+              "RelativeToolTip": "Furniture Ecommerce site\\About.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2023-04-19T08:31:13.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Home.aspx",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\Home.aspx",
+              "RelativeDocumentMoniker": "Furniture Ecommerce site\\Home.aspx",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\SEM 6 FINAL SDP\\woodhack\\woodhack\\Final\\Furniture Ecommerce site\\Furniture Ecommerce site\\Home.aspx",
+              "RelativeToolTip": "Furniture Ecommerce site\\Home.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2023-04-19T07:36:17.78Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

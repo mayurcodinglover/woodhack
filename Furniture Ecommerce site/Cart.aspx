@@ -22,9 +22,10 @@
                 <div class="media-body">
                     <h4 class="media-heading proNameViewCart"><%# Eval("PName") %> </h4>
                     <p class="proPriceDiscountView"><%# Eval("SizeNamee") %></p>
+                    <span>Product ID: <%# Eval("PID") %></span><br />
                     <span class="propriceView"><%# Eval("PSelPrice","{0:c}") %></span>
                     <span class="proOgpriceView"><%# Eval("PPrice","{0:00,0}") %></span>
-                    <span>Product Size: <%# Eval("PID") %>-<%# Eval("SizeIDD") %></span>
+                    
                     <p>
                         <asp:Button ID="btnRemoveCart" CommandArgument='<%# Eval("PID").ToString() + "-" + Eval("SizeIDD").ToString() %>' runat="server" Text="Remove" CssClass="RemoveButton" OnClick="btnRemoveCart_Click" />
                     </p>    

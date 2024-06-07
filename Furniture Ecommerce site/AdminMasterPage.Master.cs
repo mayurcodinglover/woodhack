@@ -16,8 +16,10 @@ namespace Furniture_Ecommerce_site
 
         protected void btnAdminlogout_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/Signin.aspx");
             Session["Username"] = null;
+            Response.Redirect("~/Signin.aspx");
+            
+            
         }
     }
 }

@@ -110,7 +110,7 @@ namespace Furniture_Ecommerce_site
                     cmd.Parameters.AddWithValue("@FreeDelivery", 0.ToString());
 
                 }
-                if (ch30Ret.Checked == true)
+                /*if (ch30Ret.Checked == true)
                 {
                     cmd.Parameters.AddWithValue("@Return30day", 1.ToString());
                 }
@@ -118,7 +118,7 @@ namespace Furniture_Ecommerce_site
                 {
                     cmd.Parameters.AddWithValue("@Return30day", 0.ToString());
 
-                }
+                }*/
                 if (chCOD.Checked == true)
                 {
                     cmd.Parameters.AddWithValue("@COD", 1.ToString());
